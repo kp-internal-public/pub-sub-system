@@ -9,12 +9,3 @@ Maintain the state of consumption of each message in each topic for each consume
 Maintain order of message consumption for each consumer.
 Handle cases of consumers not being available. What to do with those messages? (Write to disk and restore?)
 Filtered message consumption in a topic by the consumer
-
-
-# Topic, Consumer, Publisher
-# Map { topicId: lastMessageId }
-
-# TOPIC -> Consumer
-# Consumer -> unsubscribe, re-subscription
-
-# WAL
